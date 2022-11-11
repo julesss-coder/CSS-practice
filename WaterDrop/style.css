@@ -1,0 +1,34 @@
+/* Found on Twitter: https://twitter.com/NanouuSymeon/status/1590967346021437447?s=20&t=wbaGwb8qLC0BHOAgnXZECw */
+
+.blob {
+  height: 150px;
+  width: 150px;
+  background: transparent;
+  border-radius: 58% 43% 33% 64% / 50% 38% 53% 50%;
+  box-shadow: inset 6px 33px 20px 0 #c9c9c9, 
+  inset 20px 80px 15px 0 #e0e0e0,
+  10px 20px 20px 0px #c9c9c9;
+}
+
+.blob::before {
+  content: '';
+  position: absolute;
+  border-radius: 37% 54% 46% 46%;
+  background: white;
+  width: 50px;
+  transform: rotate(-30deg);
+  height: 15px;
+  top: 28px;
+  left: 30px;
+}
+
+.blob::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  background: white;
+  width: 10px;
+  height: 10px;
+  top: 70px;
+  left: 30px;
+}
